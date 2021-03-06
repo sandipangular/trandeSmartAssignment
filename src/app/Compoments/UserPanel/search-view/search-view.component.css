@@ -1,0 +1,31 @@
+._searchBoxSection{
+    background-color: #fc6c00;
+    padding: 10% 0 7% 0;
+}
+.title{
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 4rem;
+}
+.SearchBoxmain{
+    width: 100%;
+    max-width: 45%;
+    margin: 0 auto;
+}
+.searchBox{
+    width: 70%;
+}
+.showDropDown{
+    width: 25%;
+}
+.input-group-append{
+    width: 5%;
+}
+.boxBottomContent{
+    margin-top: 2rem;
+    color: #fff;
+}
+.boxBottomContent p{
+    margin-top: 2rem;
+}
