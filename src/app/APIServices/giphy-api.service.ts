@@ -37,7 +37,7 @@ export class GiphyAPIService {
     headers = headers.set('Access-Control-Allow-Methods', 'GET, POST, PATCH, DELETE, PUT, OPTIONS');
     headers = headers.set('Access-Control-Allow-Headers', 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With');
 
-     return this.http.get("http://api.giphy.com/v1/gifs/search?q=funny+cat&api_key=dc6zaTOxFJmzC", { headers })
+     return this.http.get("https://api.giphy.com/v1/gifs/search?q=funny+cat&api_key=dc6zaTOxFJmzC", { headers })
   }
   searchData(parameter:string){
     let headers = new HttpHeaders()
@@ -51,7 +51,7 @@ export class GiphyAPIService {
     headers = headers.set('Access-Control-Allow-Methods', 'GET, POST, PATCH, DELETE, PUT, OPTIONS');
     headers = headers.set('Access-Control-Allow-Headers', 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With');
     debugger;
-     return this.http.get(this.APIurl+"'+parameter+'"+"&api_key=dc6zaTOxFJmzC", { headers })
+     return this.http.get(this.APIurl+'"'+parameter+"'+'&api_key=dc6zaTOxFJmzC'", { headers })
   }
 
 }
