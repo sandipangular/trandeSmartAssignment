@@ -25,7 +25,6 @@ export class SearchViewComponent implements OnInit {
     })
   }
   onKeypressEvent(event: any){
-   // console.log(event.target.value);
     this.webService.searchData(event.target.value); 
  }
 

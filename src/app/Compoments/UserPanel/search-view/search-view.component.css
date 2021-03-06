@@ -29,3 +29,39 @@
 .boxBottomContent p{
     margin-top: 2rem;
 }
+._mainDivBox{
+    margin-bottom: 15px;
+}
+.image{
+    width: 100%;
+}
+.gifImageSection{
+    margin: 30px auto;
+}
+
+@media screen and (max-width:767px){
+    .SearchBoxmain{
+        width: 100%;
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    .searchBox {
+        width: 100%;
+    }
+    .title{
+        font-size: 45px;
+    }
+        
+    .showDropDown{
+        width: 70%;
+        margin-top: 5px;
+    }
+    .input-group-append {
+        margin-top: 5px;
+        width: 14%;
+    }
+    ._searchBoxSection{
+        background-color: #fc6c00;
+        padding: 20% 0 10% 0;
+    }
+}
