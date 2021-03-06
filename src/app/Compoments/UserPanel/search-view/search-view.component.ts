@@ -21,11 +21,13 @@ export class SearchViewComponent implements OnInit {
     this.webService.getDataBysearch().subscribe(res=>{
      // debugger;
       console.log("data from API",res);
-      this.gifsArray=res;
+     
     })
   }
   onKeypressEvent(event: any){
-    this.webService.searchData(event.target.value); 
+    this.webService.searchData(event.target.value).subscribe(res=>{
+      this.gifsArray=res;
+    }); 
  }
 
 }
