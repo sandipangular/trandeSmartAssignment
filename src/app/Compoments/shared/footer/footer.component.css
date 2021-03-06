@@ -21,3 +21,16 @@ ul.categoryList li{
 .btn-lg, .form-control{
     width: 90%;
 }
+
+@media screen and (max-width:767px){
+    ul.categoryList{
+        width: 50% !important;
+    }
+    ._footercategory h3{
+        margin-top: 20px;
+    }
+    .btn-lg, .form-control{
+        width: 100%;
+    }
+    
+}
